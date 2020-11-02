@@ -21,8 +21,6 @@ void BtRelease();
 void MudaEstado();
 void PiscaLed();
 
-
-
 int main() {
   inicio();
   button.rise(&BtPress);
